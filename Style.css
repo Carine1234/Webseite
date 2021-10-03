@@ -20,6 +20,23 @@ h1
     font-size: 45px;
     color: #444;
 }
+h2
+{
+    margin-top: 150px;
+    font-size: 45px;
+    margin-left: 200px;
+    text-transform: uppercase;
+}
+h4
+{
+    color: #444;
+    font-size: 24px;
+}
+p
+{
+    color: #777;
+    line-height: 20px;
+}
 .orange
 {
     color: orangered;
@@ -44,7 +61,7 @@ header
 header h1
 {
     float: left;
-    margin-top: 32px;
+    margin-top:32px;
 }
 header nav
 {
@@ -53,10 +70,61 @@ header nav
 }
 header nav ul li
 {
+    float: left;
     display: inline-block;
-    margin-right: 20px;
 }
 header nav ul li a
 {
     font-weight: bold;
+    margin-right: 20px;
+}
+/*main_image*/
+.organise
+{
+    margin-left: 45px;
+}
+.trip
+{
+    font-weight: bolder;
+    
+}
+div a
+{
+    margin-left: 400px;
+    margin-top: 300px;
+    color: white;
+    background-color: darkorange;
+    padding: 8px 15px;
+}
+header img
+{
+    height: 450px;
+    width: 1345px;
+    margin-top: 40px;
+}
+/*steps*/
+#steps ul
+{
+    
+}
+#steps ul li
+{
+    width: 435px;
+    float: left;
+}
+#steps h4
+{
+    margin-bottom: 20px;
+}
+#step-1
+{
+  background: url(Folders/icons8-stylo-%C3%A0-bille-50.png) no-repeat center;
+}
+#step-2
+{
+   background: url(Folders/icons8-chapeau-de-dipl%C3%B4me-50.png) no-repeat center; 
+}
+#step-3
+{
+    background: url(Folders/icons8-fus%C3%A9e-50.png) no-repeat center;
 }
