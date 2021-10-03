@@ -96,6 +96,10 @@ div a
     background-color: darkorange;
     padding: 8px 15px;
 }
+div a:hover
+{
+    background:red;
+}
 header img
 {
     height: 450px;
@@ -116,15 +120,43 @@ header img
 {
     margin-bottom: 20px;
 }
+
+#image-1 {
+    margin-top: 50px;
+    margin-left: 180px;
+    border: 2px solid black;
+    width: 90px;
+    height: 90px;
+    border-radius:50px;
+    text-align: center;
+}
+#image-2 {
+    margin-top: 50px;
+    margin-left: 180px;
+    border: 2px solid black;
+    width: 90px;
+    height: 90px;
+    border-radius:50px;
+    text-align: center;
+}
+#image-3 {
+    margin-top: 50px;
+    margin-left: 180px;
+    border: 2px solid black;
+    width: 90px;
+    height: 90px;
+    border-radius:50px;
+    text-align: center;
+}
 #step-1
 {
-  background: url(Folders/icons8-stylo-%C3%A0-bille-50.png) no-repeat center;
+   margin-left: 165px;
 }
 #step-2
 {
-   background: url(Folders/icons8-chapeau-de-dipl%C3%B4me-50.png) no-repeat center; 
+   margin-left: 145px;
 }
 #step-3
 {
-    background: url(Folders/icons8-fus%C3%A9e-50.png) no-repeat center;
+   margin-left: 165px; 
 }
