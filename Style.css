@@ -160,3 +160,19 @@ header img
 {
    margin-left: 165px; 
 }
+/*Possibilities*/
+#possibilities
+{
+    display: inline-block;
+    background-color: #efefef;
+    padding: 60px 0px;
+}
+#possibilities article
+{
+    width: 460px;
+    height: 270px;
+}
+.article1
+{
+    background-image: url(Folders/karim-manjra-zCPPpU-vwdc-unsplash.jpg);
+}
