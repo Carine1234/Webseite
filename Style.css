@@ -52,6 +52,11 @@ a
     text-decoration: none;
     color: #444;
 }
+small
+{
+    font-style: italic;
+    font-size: 13px;
+}
 
 /*HEADER*/
 header
@@ -95,6 +100,7 @@ div a
     color: white;
     background-color: darkorange;
     padding: 8px 15px;
+    border-radius:3px;
 }
 div a:hover
 {
@@ -165,14 +171,43 @@ header img
 {
     display: inline-block;
     background-color: #efefef;
-    padding: 60px 0px;
+    padding: 80px 200px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 #possibilities article
 {
     width: 460px;
     height: 270px;
+    float: left;
+    border-radius: 10px;
 }
 .article1
 {
-    background-image: url(Folders/karim-manjra-zCPPpU-vwdc-unsplash.jpg);
+    background-image: url(Folders/canal-1209808_640.jpg);
+    margin-right: 20px;
+}
+.button-2
+{
+    margin-left: 50px;
+}
+.overlay
+{
+    background: rgba(255,255,255,0.95);
+    height: 85%;
+    width: 190px;
+    padding: 20px;
+    border-radius: 10px 0px 0px 10px;
+}
+article h4
+{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#possibilities p
+{
+    text-align: center;
+    margin-bottom: 20px;
 }
