@@ -172,7 +172,7 @@ header img
     display: inline-block;
     background-color: #efefef;
     padding: 80px 200px;
-    margin-top: 80px;
+    margin-top: 50px;
     margin-bottom: 80px;
 }
 #possibilities article
@@ -193,7 +193,7 @@ header img
 }
 .overlay
 {
-    background: rgba(255,255,255,0.95);
+    background: rgba(255,255,255,0.90);
     height: 85%;
     width: 190px;
     padding: 20px;
@@ -209,5 +209,40 @@ article h4
 #possibilities p
 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+/*CONTACT*/
+.contact1
+{
+    text-align: center;
+    font-size: 30px; 
+    margin-left: 300px;
+    margin-right: 300px;
+    border-bottom: 3px solid #02b8dd;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+.par
+{
+    text-align: center;
+    margin-bottom: 40px;
+}
+form
+{
+  font-size: 20px;  
+}
+
+/*FOOTER*/
+footer
+{
+    height: 260px;
+    background-color: #444;
+    text-align: center;
+}
+footer h1
+{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
